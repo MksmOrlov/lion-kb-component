@@ -1,0 +1,26 @@
+concept_lion
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_animal;
+=> nrel_main_idtf:
+	[лев]
+	(* <- lang_ru;; *);
+	[lion]
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (лев)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Лев — это хищное животное семейства кошачьих.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);
+-> lion_mksm;
+-> lion_simba;;
+

@@ -1,0 +1,14 @@
+lion_specification
+<- concept_reusable_component;
+<- concept_atomic_component;
+<- concept_kb_component;
+
+=> nrel_author: Orlov;
+=> nrel_explanation: [Semantic neighbourhood of lion.] (*<- lang_en;;*);
+
+=> nrel_inner_deps: ...;
+=> nrel_outer_deps: ...;
+=> nrel_upstream_url: [https://github.com/MksmOrlov/lion-kb-component] (*<- github_url;;*);
+=> nrel_installation_command: [git clone https://github.com/MksmOrlov/lion-kb-component
+./build_kb.sh];;
+
