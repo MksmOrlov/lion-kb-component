@@ -6,6 +6,7 @@ concept_lion
 	[лев]
 	(* <- lang_ru;; *);
 	[lion]
+    (* <- lang_en;; *);
 <- rrel_key_sc_element:
 	...
 	(*
